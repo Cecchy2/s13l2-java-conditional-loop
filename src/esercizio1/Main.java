@@ -11,10 +11,18 @@ public class Main {
     }
 
     public static boolean stringaPariDispari(String str) {
-        return (str.length() % 2) == 0;
+        if ((str.length() % 2) == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static boolean annoBisestile (int anno) {
-        return anno % 4 == 0 && anno % 100 == 0 && anno % 400 == 0;
+        if (anno %4 == 0 && anno% 100 == 0 && anno%400 == 0){
+            return true;
+        } else {
+            return false;
+        }
     }
 }
