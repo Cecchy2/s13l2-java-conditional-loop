@@ -10,6 +10,8 @@ public class Main {
         int numero = Integer.parseInt(scanner.nextLine());
 
         for (int i = numero; i >= 0; i--) {
+
+
             System.out.println(i);
 
         }
