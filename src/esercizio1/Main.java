@@ -5,7 +5,7 @@ public class Main {
 
         System.out.println(stringaPariDispari("Ciao a tutti"));
 
-        System.out.println(annoBisestile(2026));
+        System.out.println(annoBisestile(1900));
 
 
     }
@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static boolean annoBisestile (int anno) {
-        if (anno %4 == 0 && anno% 100 == 0 && anno%400 == 0){
+        if (anno % 4 == 0 && anno % 100 == 0 && anno % 400 == 0){
             return true;
         } else {
             return false;
