@@ -11,16 +11,9 @@ public class Main {
 
         for (int i = numero; i >= 0; i--) {
 
-
             System.out.println(i);
-
         }
         scanner.close();
-
         }
-
-
-
-
     }
 
